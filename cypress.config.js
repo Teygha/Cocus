@@ -22,10 +22,10 @@ module.exports = {
   },
   "e2e": {
     "baseUrl": "https://www.phptravels.net/login",
-    "specPattern": "integration/**/*.cy.{js,jsx,ts,tsx}",
-    "supportFile": "support/index.js"
-  },
-  "baseUrl": "https://www.phptravels.net/login",
-  "specPattern": "integration/**/*.cy.{js,jsx,ts,tsx}",
-  "supportFile": "cypress/support"
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "supportFile": "cypress/support/index.js"
+  }
+//   "baseUrl": "https://www.phptravels.net/login",
+   //"specPattern": "integration/**/*.cy.{js,jsx,ts,tsx}",
+//   "supportFile": "cypress/support"
 }
